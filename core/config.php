@@ -2,9 +2,9 @@
 
 
 $DB_HOST = "localhost";
-$DB_USER = "root";
-$DB_PASS = "";
-$DB_NAME = "poshhomesfl";
+$DB_USER = "u495702832_poshadmin";
+$DB_PASS = "6R^w?>w4Tn";
+$DB_NAME = "u495702832_poshhomes";
 
 
 $API_PATH = "https://api.bridgedataoutput.com/api/v2/";

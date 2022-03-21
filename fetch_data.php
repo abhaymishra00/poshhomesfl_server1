@@ -59,14 +59,11 @@ function add_property($list)
 
 
 
-    if (query($q . $q_value)) {
-        echo "Record Updatad";
-        global $next_list_url;
-        if ($next_list_url != "") {
-            load_property($next_list_url);
-        }
-    } else {
-        echo "Can't complete record";
+    query($q . $q_value);
+
+    global $next_list_url;
+    if ($next_list_url != "") {
+        load_property($next_list_url);
     }
 }
 
